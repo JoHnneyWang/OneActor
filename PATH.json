@@ -1,0 +1,6 @@
+{
+    "paths":{
+        "base_path": "YOUR_PATH/OneActor",
+        "sdxl_path": "YOUR_PATH/stable-diffusion-xl-base-1.0"
+    }
+}

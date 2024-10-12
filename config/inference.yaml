@@ -1,0 +1,18 @@
+data_root: './data/demo'
+pretrain_root: './output/demo'
+out_file: '/inference'
+prompt : 'Soft dark light, a hobbit wearing robes, eating breakfast' # CHANGE HERE, MAKE SURE IT CONTAINS THE BASE WORD
+base: 'hobbit'  # CHANGE HERE
+neg_prompt: ''
+seed: 23018
+inference_steps: 30
+select_steps: [1,20]  # appplying cluster guidance to these steps
+only_step: 200  # type in a specific step (Recommended) or set to 'best'
+
+v: 0.8 # semantic interpolation scales
+eta_1: 7.5  # target attraction scale
+eta_2: 0  # auxiliary exclusion scale (set to 0 will avoid increasing inference time)
+
+model_type: 'XL'
+device: 'cuda'
+xt_position: -1
