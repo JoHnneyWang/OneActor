@@ -3,9 +3,9 @@
 </p>
 <div align="center">
 
-## OneActor: Consistent Character Generation via Cluster-Conditioned Guidance
+# OneActor: Consistent Character Generation via Cluster-Conditioned Guidance
 
-#### [NeurIPS 2024]
+### [NeurIPS 2024]
 
 [![Paper](https://img.shields.io/badge/Paper-gray)](https://arxiv.org/pdf/2404.10267) &ensp; [![arXiv](https://img.shields.io/badge/arXiv-red)](https://arxiv.org/abs/2404.10267) &ensp; [![Project Page](https://img.shields.io/badge/Project%20Page-green
 )](https://johnneywang.github.io/OneActor-webpage/)
