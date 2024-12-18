@@ -50,9 +50,17 @@ The images will be saved at `./output/demo/inference`.
 ## 📖 Citation
 If you are inspired by our work, please cite our paper.
 ```bibtex
-@inproceedings{wang2024oneactor,
+@inproceedings{oneactor,
       title={OneActor: Consistent Character Generation via Cluster-Conditioned Guidance},
-      author={Wang, Jiahao and Yan, Caixia and Lin, Haonan and Zhang, Weizhan},
+      author={Jiahao Wang,
+              Caixia Yan,
+              Haonan Lin,
+              Weizhan Zhang,
+              Mengmeng Wang,
+              Tieliang Gong,
+              Guang Dai,
+              Hao Sun
+              },
       booktitle={Advances in Neural Information Processing Systems},
       year={2024}
     }
