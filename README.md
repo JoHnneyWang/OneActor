@@ -12,7 +12,7 @@
 </div>
 
 ---
-This is the official code of OneActor, which allows users to generate **consistent images of a preferred character solely driven by text prompts**. Hope you have fun with this demo!
+This is the official code of OneActor, which allows users to generate **consistent images of a preferred character solely driven by text prompts**. Currently it supports Single-Subject Consistent Generation. Hope you have fun with this demo!
 
 ---
 
@@ -29,18 +29,18 @@ This code is designed to drive on NVIDIA A100 GPU, use this code to install the 
     conda create -n oneactor python=3.10
     conda activate oneactor
     pip install -r requirements.txt
-#### Specify Paths
+#### 1 Specify Paths
 Please edit the `./PATH.json` to specify the paths to the code and the StableDiffusionXL model.
-#### Generate Target Image
+#### 2 Generate Target Image
 Please change the prompt and other settings in `/config/gen_tune.yaml` or you can leave it to the default setting.
 Use this code to generate the target image and the auxiliary images:
 
     python generate_data.py
 The images will be saved at `./data/demo`.
-#### Tune the Projector
+#### 3 Tune the Projector
 
     python tune.py
-#### Inference for Consistent Images
+#### 4 Inference for Consistent Images
 Please change the prompt and other settings in `./config/inference.yaml` or you can leave it to the default setting.
 Use this code to generate the desired consistent image:
 
